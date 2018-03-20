@@ -1,0 +1,9 @@
+Steps -
+
+1. Login to github account and create a demo repo
+	E.g. DemoRepo2
+2. Initialize GIT in your project workspace - 
+    >git init 
+ - A .git directory will be created 
+3. To Register(or link) our project in above github repo - 
+    >git remote add origin https://github.com/amitpradhan/DemoRepo2.git
