@@ -7,3 +7,20 @@ Steps -
  - A .git directory will be created 
 3. To Register(or link) our project in above github repo - 
     >git remote add origin https://github.com/amitpradhan/DemoRepo2.git
+4. Check status
+    >git status
+5. If we want to push all the files 
+    >git add . 
+6. git commit -m "First GIt commit"
+7. git push origin master
+
+8 . To push the code to a different git repo than your own , the owner 
+    of the git repo need to add SSH key of the user in it's git account.
+    >GO to settings -> SSH and GPG keys -> Add SSH Key
+  - To get the SSH public key in window , follow below link-
+https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually/manually-generating-your-ssh-key-in-windows 
+
+- To pull , we dont need any ssh key but to push the code we need it.
+
+9. Update few files, add few files and push again. Follow above commands.
+   Check the comments
